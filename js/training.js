@@ -75,14 +75,7 @@ var qa = [
     ]
   },
   {
-    question: "",
-    answer: [".",
-     "",
-      "",
-    ]
-  },
-  {
-    question: "",
+    question: "That's all for now. See you soon for updates.",
     answer: [".",
      "",
       "",
@@ -128,8 +121,6 @@ function displayQuestion() {
 }
 // Function to display the next answer or move to the next question
 
-// Update the displayNext function
-// Update the displayNext function
 // Update the displayNext function
 function displayNext() {
   if (currentAnswer < qa[currentQA - 1].answer.length) {
